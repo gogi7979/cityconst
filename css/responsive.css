@@ -1,0 +1,242 @@
+@media screen and (max-width: 768px) {
+    body { font-size: 12px; }
+    h2 { font-size: 1.3em; }
+    p { font-size: 11px; }
+    
+    /* Section */
+    .wrap { padding: 80px 5% }
+    
+    /* Header */
+    header {
+        padding: 0;
+    }
+    
+    .header__logo {
+        width: 150px;
+        margin-left: 5%;
+    }
+    
+    .header__logo img {
+        width: 100%;
+    }
+    
+    .header__nav {
+        display: none;
+    }
+    
+    .header__nav--mobile {
+        display: none;
+        position: absolute;
+        top: 100%;
+        width: 100%;
+    }
+        
+    .header__nav--mobile li {
+        position: relative;
+        text-align: left;
+        opacity: 0.9;
+    }
+    
+    .header__main-menu {
+        display: block;
+        padding: 20px;
+        background-color: #222;
+    }
+    
+    .header__sub-menu {
+        display: none;
+        visibility: visible;
+        position: static;
+        opacity: 1;
+    }
+    
+    header button {
+        display: block;
+        margin-right: 5%;
+        border: none;
+        background-color: transparent;
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+    
+    /* Slide */
+    .slide__text {
+        width: 95%;
+    }
+    
+    .slide__text h1 {
+        font-size: 3.5em;
+    }
+    
+    .slide__text p {
+        font-size: 2.9vw;
+    }
+    
+    .slick-prev {
+        left: 5%;
+    }
+    
+    .slick-next {
+        right: 5%;
+    }
+    
+    /* Business Section */
+    .business {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    
+    .business__list {
+        flex: 50%;
+        padding: 0;
+    }
+    
+    .business__list:nth-child(odd) {
+        border-right: 1px solid #ccc;
+    }
+    
+    .business__list:nth-child(1),
+    .business__list:nth-child(2) {
+        border-bottom: 1px solid #ccc;
+    }
+    
+    .business__list a {
+        border: none;
+    }
+    
+    /* Introduce Section */
+    .introduce__container {
+        column-gap: 10px;
+    }
+    
+    .introuduce__img {
+        height: 30vw;
+    }
+    
+    .introuduce__img:hover {
+        transform: none;
+    }
+    
+    .introduce__text {
+        padding: 0;
+        height: 120px;
+    }
+    
+    /* History Section */
+    .history__container {
+        grid-gap: 10px;
+    }
+    
+    .history__list {
+        flex: 1 48%;
+        padding: 15px;
+    }
+    
+    .history__list i {
+        transform: scale(0.8);
+    }
+    
+    .history__list h3 {
+        line-height: 2em;
+    }
+    
+    /* Modal */
+    .brand__modal button {
+        top: 13%;
+        transform: none;
+    }
+    
+    .brand__list {
+        flex-flow: row wrap;
+        max-width: 400px;
+    }
+    
+    .brand__list li {
+        width: 50%; 
+        border: 4px solid #b1977e;
+    }
+    
+    .brand__list li::before {
+        border: 2px solid #b1977e;
+    }
+    
+    .brand__list a {
+        padding: 10px 20px;
+    }
+    
+    /* Notice Section */
+    .notice__board {
+        padding: 0;
+    }
+    
+    .notice__board tr {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        padding: 15px 15px 15px 0;
+    }
+    
+    .notice__title {
+        width: 70%;
+    }
+    
+    .notice__date {
+        width: 30%;
+    }
+    
+    /* Customer Section */
+    .customer {
+        flex-direction: column;
+        grid-gap: 30px;
+        padding: 10% 5%;
+    }
+    
+    .customer__menu {
+        grid-gap: 5px;
+    }
+    
+    .customer__btn {
+        padding: 20px 0;
+    }
+    
+    .customer__btn i {
+        font-size: 20px;
+    }
+    
+    .customer__btn p {
+        font-size: 13px;
+    }
+    
+    /* Footer */
+    footer {
+        padding: 5%;
+    }
+    
+    .footer__top {
+        flex-flow: row wrap;
+        align-items: flex-start;
+        grid-row-gap: 50px;
+        padding: 0;
+        border-bottom: none;
+    }
+    
+    .footer__link {
+        order: 2;
+        flex: 100%;
+    }
+    
+    .footer__link a:nth-child(1) {
+        padding-left: 0;
+    }
+    
+    .footer__top select {
+        order: 1;
+        margin-left: 20%;
+        transform: scale(0.9);
+    }
+    
+    .footer__bottom {
+        padding: 0;
+    }
+}
